@@ -1,0 +1,151 @@
+body
+{
+       padding-top: 48px !important;
+}
+
+
+
+header
+{
+
+}
+
+
+
+aside
+{
+position:absolute;
+position:fixed;
+}
+
+
+section
+{
+margin-left: 18%;
+margin-right: 1%;
+
+min-height: 500px;
+margin-top: 1%;
+border:0px;
+padding-left: 0%;
+padding-top: 0%;
+padding-right: 0%;
+padding-bottom:0%;
+
+
+}
+
+
+
+footer
+{
+background-color:#ffffff;
+width:100%;
+border-radius:10px;
+border:0px;
+margin-top: 50px;
+}
+
+
+nav
+{
+  width:100%;
+
+}
+
+
+
+/* style du bloc ul */
+.menu-vertical {
+  width: 250px; /* optionnel, c'est pour la démo */
+  list-style: none; /* supprime les puces de liste */
+  padding: 4px; /* on fait un peu de place autour des liens */
+  margin: 0; /* on annule les marges */
+  background: #F2F2F2;
+}
+ 
+/* styles des liens et éléments de liste */
+.mv-item,
+.mv-item a {
+  /* les liens et item deviennent des blocs */
+  /* suffit théoriquement à virer les puces de liste */
+  display: block;
+}
+ 
+/* styles des liens */
+.mv-item a {
+  margin: 1px 0; /* espace les liens d'1 px */
+  padding: 8px 20px; /* marges internes pour aérer */ 
+  color: black;
+  background: #FFF;
+  text-decoration: none; /* on vire le soulignement */
+
+  /* on définit la transition pour les navigateurs */
+  -webkit-transition: all .3s; /* Chrome/Safari */
+  -moz-transition: all .3s; /* Firefox (plus trop nécessaire) */
+  transition: all .3s; /* syntaxe officielle */
+}
+ 
+/* styles changeants au survol et focus */
+.mv-item a:hover,
+.mv-item a:focus {
+  background: #2C3E50;
+  color: black;
+  padding-left: 30px; /* décalage du contenu de 10px vers la droite (30-20 = 10) */
+text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*user profile*/
+
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:0px;
+ margin-left: 0px !important;
+min-width: 100% !important;
+
+}
+
+
+
